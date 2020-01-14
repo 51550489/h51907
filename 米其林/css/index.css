@@ -1,0 +1,520 @@
+.w {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+}
+header .logo {
+  width: 230px;
+  height: 64px;
+  float: left;
+}
+header .nav ul {
+  float: right;
+  margin-top: 65px;
+}
+header .nav li {
+  float: left;
+  color: white;
+  margin-left: 38px;
+  line-height: 40px;
+  transition: all 1s;
+}
+header .nav li:hover {
+  color: orangered;
+  border-bottom: 1px solid orange;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .bgk {
+  background: url(../images/banner.jpg) center top no-repeat fixed;
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+  color: white;
+}
+.banner .bgk h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 150px;
+}
+.banner .bgk h2 {
+  text-align: center;
+  font-size: 28px;
+  color: orangered;
+  margin-top: 5px;
+}
+.banner .bgk p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.banner .bgk_book {
+  width: 220px;
+  height: 50px;
+  background-color: orangered;
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 40px;
+  transition: all 1s;
+}
+.banner .bgk_book:hover {
+  background-color: transparent;
+  border: 1px solid orangered;
+}
+.banner .bgk_book a {
+  display: inline-block;
+  margin-top: 10px;
+}
+.banner .bgk_yuan {
+  width: 64px;
+  height: 120px;
+  border-radius: 40px;
+  border: 2px solid white;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.banner .bgk_yuan .dian {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
+
+.about {
+  width: 100%;
+  margin-top: 115px;
+}
+.about .abl {
+  width: 45%;
+  float: left;
+  margin-right: 120px;
+}
+.about .abl h2 {
+  font-size: 38px;
+  color: orangered;
+}
+.about .abl h3 {
+  font-size: 20px;
+  line-height: 50px;
+}
+.about .abl p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.about .abr {
+  width: 45%;
+  float: right;
+}
+.about .abr .ab2 {
+  position: relative;
+}
+.about .abr img {
+  border-radius: 50%;
+  border: 10px solid whitesmoke;
+  margin-bottom: 100px;
+}
+.about .abr img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu {
+  width: 100%;
+}
+.menu .mbgk {
+  background: url(../images/special_menu_bg.jpg) 0 0 no-repeat fixed;
+  height: 700px;
+  background-size: cover;
+  overflow: hidden;
+}
+.menu .mt {
+  text-align: center;
+  margin-top: 50px;
+}
+.menu .mt h2 {
+  font-size: 38px;
+  color: orangered;
+  margin-bottom: 30px;
+}
+.menu .mt h4 {
+  line-height: 20px;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.menu .box {
+  margin-top: 30px;
+  width: 1200px;
+  overflow: hidden;
+}
+.menu .box .middle {
+  width: 3000px;
+  overflow: hidden;
+}
+.menu .box .middle img {
+  width: 370px;
+  height: 435px;
+  float: left;
+  margin-left: 20px;
+  border: 5px solid whitesmoke;
+}
+.menu .btn_yuan .active {
+  background: orange;
+}
+.menu .btn_yuan li {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  margin-left: 3px;
+  border: 2px solid whitesmoke;
+}
+
+.our_menu {
+  width: 100%;
+  margin-top: 100px;
+}
+.our_menu .tit {
+  margin-bottom: 30px;
+}
+.our_menu .tit h2 {
+  font-size: 36px;
+  text-align: center;
+  color: orangered;
+}
+.our_menu .tit p {
+  text-align: center;
+  width: 80%;
+  margin-left: 115px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.our_menu .nav {
+  overflow: hidden;
+}
+.our_menu .tit_table .nav1 {
+  width: 25%;
+  float: left;
+}
+.our_menu .tit_table .nav1:hover {
+  background-color: orangered;
+  color: white;
+}
+.our_menu .tit_table .nav1 h4 {
+  font-size: 22px;
+  line-height: 50px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.our_menu .tit_table .nav1 h4:hover {
+  border-bottom: 1px solid white;
+}
+.our_menu .tit_table .nav1 img {
+  margin: 30px 108px;
+}
+.our_menu .tit_table .j11 {
+  width: 540px;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+  margin-left: 37px;
+}
+.our_menu .tit_table .j11 img {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+.our_menu .tit_table .j11 div {
+  width: 60%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.our_menu .tit_table .j11 span {
+  width: 90px;
+  height: 90px;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  line-height: 90px;
+  font-size: 26px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: -5px;
+}
+.our_menu .jm {
+  overflow: hidden;
+}
+.our_menu .jm .j_middle {
+  width: 4800px;
+}
+.our_menu .jm .j_middle .j1 {
+  width: 1200px;
+  padding-top: 25px;
+  border-top: 1px solid gray;
+  overflow: hidden;
+  float: left;
+}
+
+.tem {
+  width: 100%;
+}
+.tem .tbgk {
+  background: url(../images/team_bg.jpg) 0 0 no-repeat fixed;
+  height: 1000px;
+  background-size: cover;
+  overflow: hidden;
+}
+.tem .tbgk .tem_title {
+  margin-top: 100px;
+}
+.tem .tbgk .tem_title h2 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+.tem .tbgk .tem_title p {
+  text-align: center;
+  width: 80%;
+  margin-left: 115px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  color: white;
+}
+.tem .tbgk .tem_box {
+  margin-top: 20px;
+}
+.tem .tbgk .tem_box .b1 {
+  width: 30%;
+  float: left;
+  margin-left: 40px;
+  position: relative;
+}
+.tem .tbgk .tem_box .b1:hover .mb {
+  transition: 1s;
+  opacity: 1;
+}
+.tem .tbgk .tem_box .b1:hover .b1_1 {
+  transition: 1s;
+  background-color: orangered;
+  color: white;
+}
+.tem .tbgk .tem_box .b1 img {
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+.tem .tbgk .tem_box .b1 .mb {
+  width: 360px;
+  height: 360px;
+  background: rgba(227, 0, 17, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.tem .tbgk .tem_box .b1 .b1_1 {
+  padding: 25px 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  background: #fff;
+}
+.tem .tbgk .tem_box .b1 .b1_1 h3 {
+  font-size: 28px;
+}
+.tem .tbgk .tem_box .b1 .b1_1 p {
+  margin-bottom: 10px;
+}
+.tem .tbgk .tem_box .b1 .b1_1 ul {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+  list-style: none;
+  border-top: 1px solid;
+}
+.tem .tbgk .tem_box .b1 .b1_1 ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: greenyellow;
+}
+
+.gallery {
+  width: 100%;
+}
+.gallery .gt {
+  margin-top: 100px;
+}
+.gallery .gt h2 {
+  font-size: 36px;
+  text-align: center;
+  color: orangered;
+}
+.gallery .gt p {
+  text-align: center;
+  width: 80%;
+  padding: 20px 120px;
+  line-height: 35px;
+  font-size: 18px;
+}
+.gallery .gbox {
+  width: 100%;
+}
+.gallery .gbox ul {
+  padding: 3px;
+  overflow: hidden;
+}
+.gallery .gbox ul .li1 {
+  width: 66.6666%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.gallery .gbox ul .li1:hover .mban1 {
+  opacity: 1;
+  transition: all 1s;
+}
+.gallery .gbox ul .li1 img {
+  width: 763px;
+  height: 350px;
+  overflow: hidden;
+}
+.gallery .gbox ul .li1 .mban1 {
+  width: 763px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(231, 91, 30, 0.75);
+  opacity: 0;
+}
+.gallery .gbox ul li {
+  width: 33.33333%;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+}
+.gallery .gbox ul li:hover .mban {
+  opacity: 1;
+  transition: all 1s;
+}
+.gallery .gbox ul li img {
+  width: 366px;
+  height: 350px;
+  overflow: hidden;
+}
+.gallery .gbox ul li .mban {
+  width: 366px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(231, 91, 30, 0.75);
+  opacity: 0;
+}
+
+.glog {
+  width: 100%;
+  margin-top: 60px;
+}
+.glog .glo_bg {
+  background: url(../images/blog_bg.jpg) 0 0 no-repeat;
+  height: 940px;
+  background-size: cover;
+  overflow: hidden;
+}
+.glog .glo_bg .g1 h2 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+.glog .glo_bg .g1 .gd {
+  width: 100%;
+  padding-top: 20px;
+}
+.glog .glo_bg .g1 .gd .gd1 {
+  width: 48%;
+  float: left;
+  overflow: auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: #FFF;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdl {
+  margin-bottom: 20px;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdl .gdll {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdl .gdll:hover .g2 {
+  opacity: 1;
+  transition: all 1s;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdl .gdll img {
+  width: 270px;
+  height: 270px;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdl .gdll .g2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 270px;
+  background: rgba(231, 91, 30, 0.75);
+  opacity: 0;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdr {
+  width: 46%;
+  height: 100%;
+  float: right;
+  text-align: center;
+  padding: 65px 2% 0 2%;
+}
+.glog .glo_bg .g1 .gd .gd1 .gdr h2 {
+  font-size: 22px;
+  line-height: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/*# sourceMappingURL=index.css.map */
