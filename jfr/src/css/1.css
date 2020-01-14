@@ -1,0 +1,295 @@
+header{
+	width: 100%;
+}
+.w{
+	width: 1280px;
+	margin: auto;
+}
+h1{
+	float: left;
+	margin-left: 46px;
+}
+had{
+	float: right;
+	margin-right: 40px;
+	margin-top:18px;
+	position: relative;
+}
+had h2{
+	font-size: 18px;
+	float: right;
+}
+.icon-fangdajing{
+	font-size: 20px;
+	position: absolute;
+	right: 130px;
+	top: 0;
+}
+input{
+	width: 220px;
+	height: 25px;
+	margin-right:37px;
+	border-radius: 20px;
+	float: right;
+}
+had ul{
+	margin-top: 50px;
+}
+had li{
+	float: right;
+	margin-left: 58px;
+	font-size: 16px;
+}
+.banner{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	vertical-align: top;
+}
+.ban1>img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.banner img.active{
+	opacity: 1;
+}
+.banner button{
+	position: absolute;
+	top: 50%;	
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	background-color:transparent;
+	cursor: pointer;
+	margin-top: -25px;
+	outline: none;
+}
+.banner>button:nth-of-type(1){
+	left: 30px;
+}
+.banner>button:nth-of-type(2){
+	right: 30px;
+}
+.banner button:hover{
+	background-color:red;
+	color: white;
+}
+.banner ul{
+	margin-left:-70px;
+	text-align: center;
+	position: absolute;
+	bottom: 23px;
+	left: 52.3%;
+}
+.banner li{
+	width: 12px;
+	height: 12px;
+	border-radius:50% ;
+	background-color:white;
+	display: inline-block;
+	margin-left:8px;
+	cursor: pointer;
+}
+.banner li.active{
+	background-color:red;
+}
+.jj{
+	width: 100%;
+}
+.j1{
+	border: 1px solid red;
+	width: 1126px;
+	height: 467px;
+	margin-top: 145px;
+	margin-left: 40px;
+	margin-bottom: 110px;
+	position: relative;
+}
+.j1 img{
+	position: absolute;
+	top: -40px;
+	left:40px ;
+	z-index: 1;
+}
+.j1 .j2{
+	width: 680px;
+	height: 420px;
+	background-color:gray;
+	position: absolute;
+	bottom: -20px;
+	right: -75px;
+}
+.j2 .j22{
+	margin-top: 115px;
+	margin-left: 100px;
+}
+.j22 p{
+	margin-bottom: 26px;
+	line-height: 20px;
+}
+.j2 h5{
+	margin-top:50px;
+	color: white;
+	float: right;
+	font-size: 16px;
+	color: white;
+}
+.j2 h4{
+	margin-left: 100px;
+	font-size: 16px;
+	color: white;
+	margin-top: 50px;
+	float: left;
+}
+.j1 .j3{
+	width: 216px;
+	height: 58px;
+	border: 1px solid red;
+	border-top: none;
+	position: absolute;
+	top: -34px;
+	right: 105px;
+	font-size: 20px;
+	text-align: center;
+	background-color:white;
+	z-index: 2;
+}
+.j3 p{
+	font-size: 16px;
+}
+.j3 .j31{
+	position: absolute;
+	right: 92px;
+	top:48px;
+}
+.j3 .j32{
+	position: absolute;
+	right: 257px;
+	top:48px;
+}
+.base{
+	width: 100%;
+	margin-bottom: 57px;
+}
+.bas1 h6{
+	font-size: 22px;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.base li{
+	float: left;
+	margin-left:24px;
+	width: 23%;
+	font-size: 16px;
+	text-align: center;
+}
+
+.base h4{
+	margin-top: 42px;
+	margin-bottom:20px;
+}
+.base p{
+	width: 60%;
+	color: gray;
+	margin: auto;
+	line-height: 22px;
+	padding-bottom: 50px;
+}
+.base h5{
+	width: 151px;
+	height: 38px;
+	background-color:red;
+	display: inline-block;
+	text-align: center;
+	line-height: 38px;
+	margin-left: 563px;
+	color: white;
+}
+.gue{
+	width: 100%;
+	margin-bottom: 105px;
+}
+.gue1 h6{
+	font-size: 22px;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.gue2{
+	width: 1190px;
+	height: 376px;
+	background-color:red;
+	margin-left:48px;
+	position: relative;
+}
+.gue2 img{
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+.g3{
+	position: absolute;
+	left: 530px;
+	top: 50px;
+	font-size: 22px;
+	color: white;
+}
+.g4{
+	position: absolute;
+	width: 660px;
+	right: 0;
+	top: 100px;
+	color: white;
+}
+.g4 p{
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+.xz{
+	width: 100%;
+	margin-bottom: 57px;
+}
+.xz1 h6{
+	font-size: 22px;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.xz li{
+	float: left;
+	margin-left:24px;
+	width: 23%;
+	font-size: 16px;
+}
+.xz li h4{
+	font-size: 16px;
+	line-height: 40px;
+}
+.xz li p{
+	line-height: 22px;
+	color: gray;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.xz h5{
+	width: 151px;
+	height: 38px;
+	background-color:red;
+	display: inline-block;
+	text-align: center;
+	line-height: 38px;
+	margin-left: 563px;
+	color: white;
+	margin-bottom: 20px;
+}
+footer{
+	background-color:gray;
+	text-align: center;
+	line-height: 92px;
+	color: white;
+}

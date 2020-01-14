@@ -1,0 +1,316 @@
+header{
+	width: 100%;
+	background-color: yellow;
+}
+.w{
+	width: 1200px;
+	margin: auto;
+}
+header img{
+	float: left;
+}
+header ul{
+	float: right;
+	margin-top: 34px;
+	font-size: 18px;
+}
+header li{
+	float: left;
+	margin-left: 48px;
+	line-height: 35px;
+}
+header li:hover{
+	color: red;
+	border-bottom: 1px solid red;
+}
+
+/*header end*/
+
+
+/*轮播图*/
+
+
+.carousel{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.carousel img{
+	width: 100%;
+	height: 352px;
+	vertical-align: top;
+}
+.carousel1>img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.carousel img.active{
+	opacity: 1;
+}
+.carousel .i4{
+	opacity: 0;
+}
+.carousel button{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	border-radius:50%;
+	color: darkgray;
+	border: 1px solid yellow;
+	background-color:greenyellow;
+	cursor: pointer;
+	margin-top: -25px;
+	outline: none;
+}
+.carousel>button:nth-of-type(1){
+	left: 30px;
+}
+.carousel>button:nth-of-type(2){
+	right: 30px;
+}
+.carousel button:hover{
+	background-color:transparent;
+	color: white;
+}
+.carousel ul{
+	margin-left:-50px;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+}
+.carousel li{
+	width: 10px;
+	height: 10px;
+	border-radius:50% ;
+	border: 1px solid transparent;
+	background-color:greenyellow;
+	display: inline-block;
+	margin-left:10px;
+	cursor: pointer;
+}
+.carousel li.active{
+	background-color:red;
+}
+.about{
+	width: 100%;
+}
+.a1{
+	width: 50%;
+	float: left;
+	margin-top: 75px;
+}
+.a1 h2{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 52px;
+}
+.a1 h3{
+	text-align: center;
+	margin-top: -15px;
+	margin-left: 40%;
+	cursor: pointer;
+	display: inline-block;
+}
+.a1 h3:hover{
+	color: red;
+}
+.a22{
+	width: 483px;
+	height: 558px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 83px;
+}
+.a1 p{
+	margin-bottom: 45px;
+	line-height: 22px;
+	text-indent: 2em;
+}
+.a2{
+	position: relative;
+	margin-top: 75px;
+}
+.a21{
+	width: 123px;
+	height: 121px;
+	background-color: gray;
+	position: absolute;
+	top: 20px;
+	right: 12px;
+}
+.a2 img{
+	position: absolute;
+	top: 45px;
+	right: 50px;
+}
+.dis{
+	width: 100%;
+	margin-top: 50px;
+}
+.dis h3{
+	font-size: 24px;
+	text-align: center;
+}
+.dis ul{
+	margin-top: 60px;
+}
+.dis li{
+	width: 48%;
+	height: 184px;
+	border: 1px solid darkgray;
+	float: left;
+	margin-bottom: 25px;
+	margin-left: 18px;
+}
+.dis .c12{
+	width: 48%;
+	float: left;
+	margin-top: 5px;
+}
+.dis .c11{
+	width: 48%;
+	float: left;
+	margin-top: 40px;
+}
+.dis h4{
+	width: 75px;
+	font-size: 18px;
+	line-height: 32px;
+	margin-left: 35px;
+}
+.dis p{
+	width: 80%;
+	margin-top: 24px;
+	margin-left: 35px;
+}
+.dis h4:hover{
+	border-bottom: 1px solid red;
+	color: red;
+}
+.dis h5{
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	display: inline-block;
+	margin-left: 46%;
+	cursor: pointer;
+}
+.dis h5:hover{
+	color: red;
+}
+
+
+.team{
+	width: 100%;
+	margin-top: 100px;
+}
+.team h3{
+	text-align: center;
+	font-size: 22px;
+	line-height: 30px;
+}
+.team ul{
+	margin-top: 50px;
+}
+.team li{
+	float: left;
+	width: 23%;
+	margin-left: 20px;
+}
+.team h5{
+	width: 55px;
+	margin-left: 38%;
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 16px;
+	border-bottom: 1px solid black;
+}
+.team li p{
+	width: 85%;
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 22px;
+}
+.team h5:hover{
+	color: red;
+}
+.bgc{
+	width: 100%;
+	margin-top: 45px;
+}
+.bgc img{
+	width: 100%;
+}
+
+
+
+.news{
+	width: 100%;
+	margin-top: 30px;
+}
+.news h3{
+	text-align: center;
+	font-size: 22px;
+}
+.news ul{
+	margin-top: 40px;
+}
+.news li{
+	width: 45%;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 45px;
+}
+.news .li1{
+	width: 90px;
+	height: 90px;
+	border: 1px solid grey;
+	float: left;
+}
+.li1 h3{
+	height: 50%;
+	line-height: 45px;
+}
+.news .li2{
+	float: left;
+	width:80%;
+	margin-left: 10px;
+}
+.li2 p{
+	width: 470px;
+}
+.li1 h3:hover{
+	color: red;
+}
+.li1 .gary{
+	background-color: gray;
+}
+.li2 h4{
+	font-size: 16px;
+}
+.li2 h4:hover{
+	color: red ;
+}
+.news h5{
+	font-size: 20px;
+	line-height: 40px;
+	display: inline-block;
+	margin-left: 46%;
+	cursor: pointer;
+}
+.news h5:hover{
+	color: red;
+}
+
+footer{
+	background-color: gray;
+	line-height: 80px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 60px;
+}

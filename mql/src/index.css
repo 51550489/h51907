@@ -1,0 +1,187 @@
+header{
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+	z-index: 10;
+}
+.w{
+	width: 1200px;
+	margin: auto;
+}
+.logo{
+	width: 230px;
+	height: 64px;
+	float: left;
+}
+
+.nav ul{
+	float: right;
+	margin-top: 65px;
+}
+.nav li{
+	float: left;
+	color: white;
+	margin-left: 38px;
+	line-height: 40px;
+	transition: all 1s;
+}
+.nav li:hover{
+	color: orangered;
+	border-bottom:1px solid orange;
+}
+.banner {
+	width: 100%;
+	overflow: hidden;
+}
+.bgk{
+	background:url(../images/banner.jpg) center top no-repeat fixed;
+	background-size: cover;
+	height: 700px;
+	overflow: hidden;
+	color: white;
+}
+.bgk h1{
+	text-align: center;
+	font-size: 80px;
+	margin-top: 150px;
+}
+.bgk h2{
+	text-align: center;
+	font-size: 28px;
+	color: orangered;
+	margin-top: 5px;
+}
+.bgk p{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.bgk_book{
+	width: 220px;
+	height: 50px;
+	background-color: orangered;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	margin-top: 40px;
+	transition: all 1s;
+}
+.bgk_book a{
+	display: inline-block;
+	margin-top: 10px;
+}
+.bgk_book:hover{
+	background-color: transparent;
+	border: 1px solid orangered;
+}
+.bgk_yuan{
+	width: 64px;
+	height: 120px;
+	border-radius: 40px;
+	border: 2px solid white;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+}
+.bgk_yuan .dian{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid white;
+	position: absolute;
+	top: 20px;
+	left: 40%;
+}
+.about{
+	width: 100%;
+	margin-top: 115px;
+}
+.abl{
+	width: 45%;
+	float: left;
+	margin-right: 120px;
+}
+.ab1 h2{
+	font-size: 38px;
+	color: orangered;
+}
+.ab1 h3{
+	font-size: 20px;
+	line-height: 50px;
+}
+.ab1 p{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.abr{
+	width: 45%;
+	float: right;
+}
+.ab2{
+	position: relative;
+}
+.abr img{
+	border-radius:50% ;
+	border: 10px solid whitesmoke;
+	margin-bottom: 100px;
+}
+.abr img:nth-of-type(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu{
+	width: 100%;
+}
+.menu .mbgk{
+	background:url(../images/special_menu_bg.jpg) 0 0 no-repeat fixed;
+	height: 700px;
+	background-size: cover;
+	overflow: hidden;
+}
+.mt{
+	text-align: center;
+	margin-top: 50px;
+}
+.mt h2{
+	font-size: 38px;
+	color: orangered;
+	margin-bottom: 30px;
+}
+.mt h4{
+	line-height: 20px;
+	font-size: 16px;
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+.box{
+	margin-top: 30px;
+	width: 1200px;
+	overflow: hidden;
+}
+.middle{
+	width: 3000px;
+	overflow: hidden;
+}
+.middle img{
+	width: 370px;
+	height: 435px;
+	float: left;
+	margin-left: 20px;
+	border: 5px solid whitesmoke;
+}
+.btn_yuan{
+	text-align: center;
+}
+.btn_yuan li{
+	width: 15px;
+	height: 15px;
+	border: 3px solid whitesmoke;
+	border-radius: 50px;
+	display: inline-block;
+	margin-left: 10px;
+	background: black;
+	margin-top: 20px;
+}
